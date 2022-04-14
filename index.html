@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>APOD</title>
 </head>
 <body>
     <header>
-        <img src="./img/iconNasa.png" alt="identidade Nasa" id="icon">
+        <div id="logo">
+            <img src="./img/iconNasa.png" alt="identidade Nasa" id="icon">
+            <h2 id="apod">APOD</h2>
+        </div>
         <form>
             <input type="date" min="1995-06-20" id="date">
             <input type="submit" value=" pesquisar" id="submit">
         </form>
     </header>
     <main>
-        <section>
-            <h2 id="dateTitle">data</h2>
-            <h2 id="title">titulo</h2>
-            <p id="explanation">texto</p>
-            <img src="" alt="" id="hdurl">
+        <section id="conteiner">
+            <div class="div">
+                <h2 id="title">titulo</h2>
+                <h2 id="dateTitle">data</h2>
+
+            </div>
+            <div class="div">
+                <p id="explanation">texto</p>
+                <img src="" alt="" id="hdurl">
+
+            </div>
             
         </section>
     </main>

@@ -1,21 +1,59 @@
-*{
+/* *{
     margin: 2px;
     border: solid 10px;
     border-color: green;
-}
+} */
+
+/* html{
+    height: auto;
+    width: auto;
+} */
 
 body{
+    /* width: auto;
+    height: auto; */
     background-image: url(../img/background.jpg);
     background-size: 35%;
     color: white;
+
+    font-family: 'Titillium Web', sans-serif;
 }
 
-header{
+header, #logo{
     display: flex;
     justify-content: flex-start;
+    
+}
+#logo{
+    width: 500px;
+
+}
+
+h2, input{
+    display: flex;
+    align-items: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    text-align: justify;
+}
+
+#hdurl{
+    padding: 20px;
+    width: 50%;
 }
 
 #icon{
-    width: 10%;
+    width: 110px;
     
 }

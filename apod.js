@@ -13,7 +13,7 @@ $("#submit").click(function (event){
     
     $.ajax({
         // url:"https://api.nasa.gov/planetary/apod?api_key=dhfvOTyEAbEUszxxFC9be1YJUt8t4alLqoCxVM7P&date=${date}",
-        url:"https://api.nasa.gov/planetary/apod?api_key=dhfvOTyEAbEUszxxFC9be1YJUt8t4alLqoCxVM7P&date=2008-12-27",
+        url:"https://api.nasa.gov/planetary/apod?api_key=dhfvOTyEAbEUszxxFC9be1YJUt8t4alLqoCxVM7P&date=2003-02-23",
         success: function (response) {
           $("#dateTitle").text(response.date);
           $("#title").text(response.title)
