@@ -1,0 +1,21 @@
+*{
+    margin: 2px;
+    border: solid 10px;
+    border-color: green;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: 35%;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#icon{
+    width: 10%;
+    
+}
